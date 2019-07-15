@@ -1,0 +1,202 @@
+*{
+	font-family:'Microsoft YaHei';
+}
+/* 顶部背景图 */
+#bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:52px;
+    width:1423px;
+    z-index: -10;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    zoom: 1;
+    background-size:1440px;
+}
+/*logo部分*/
+.top img{
+	width:186px;
+	height:38px;
+	margin-left: 40px;
+}
+/*导航按钮*/
+.top ul{
+	width:1296px;
+	height:43px;
+	margin-top:5px;
+}
+.top ul li{
+	float:left;
+	list-style:none;
+	height: 40px;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 1px;
+	border:1px solid #b2b2b2;
+	border-bottom: 0;
+	background: url(../images/menubg02.jpg);
+	font-style:italic ;
+}
+.top ul li a span{
+	/* -ms-line-height:34px; */
+}
+.top .top_1 #ulist li.active{
+	border:1px solid #ca7708;
+	border-bottom: 0;
+    background:url(../images/menubg01.jpg);
+    
+}
+.top .top_1 #ulist li.active a{
+    height:40px;
+    color: #fff;
+}
+.top ul li a{	
+	font-weight: 600;
+	font-size:21px;
+	width: 100%;
+	display: inline-block;
+    height: 40px;
+	color: #fff;
+	margin-top:-2px;
+	text-decoration:none;
+	background-image:-webkit-linear-gradient(left,#040000,#341101,#732702); 
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent;
+}
+.top ul li a img{
+    margin:10px auto;
+    display: block;
+}
+/*最新通知部分*/
+.center{
+	width: 1400px;
+    height: 42px;
+    margin-bottom: 14px;
+}
+.center_cen{
+	width: 1152px;
+	height: 25px;
+	margin: 0 auto;
+	
+}
+.center_cen .left{
+	width: 256px;
+    height: 27px;
+    background: #b85a24;
+    float: left;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 27px;
+    letter-spacing: 6px;
+    text-indent: 37px;
+    text-align: center;
+}
+.center_cen .right{
+	width: 865px;
+	height: 27px;
+	line-height: 27px;
+	background: #ac6f12;
+	float: right;
+	font-size:13px;
+	color: #f8d14b;
+	padding-left: 31px;
+}
+/*搜索部分*/
+.center_bot{
+	width: 1152px;
+	height:12px;
+	margin: 0 auto;
+	background: #f2df02;
+}
+.center_bot .left{
+	height: 12px;
+	background: url("../images/bell.png") no-repeat;
+	margin-left:115px;
+	background-position: initial;
+	margin-left: 132px;
+}
+.center_bot .left span{
+	display: inline-block;
+    color: #b14101;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 41px;
+}
+.center_bot .img{
+	position: absolute;
+	top:91px;
+	left:410px;
+	border:0;	
+}
+.center_bot input{
+	width: 645px;
+    height: 31px;
+    /* margin-left: 77px; */
+    margin-top: 7px;
+    padding-left: 100px;
+    /* float: right; */
+    border: none;
+    outline: none;
+}
+.center_bot .sou{
+	margin-top:7px;
+	width: 76px;
+	height: 34px;
+	float: right;
+	margin-right:60px;
+}
+/* 页面尾部样式 */
+.footer{
+    width: 774px;
+    height: 200px;
+    padding-right: 320px;
+    padding-left: 329px;
+	margin: 0 auto;
+	background: #ebebeb;
+	margin-top:10px;
+	/* position: absolute;
+    bottom: -1120px; */
+}
+.footer .buttom{
+	width: 774px;
+}
+.footer img{
+	margin-top:27px;
+	margin-bottom: 25px;
+}
+.footer .buttom p{
+	text-align: center;
+	font-size: 13px;
+	color: rgb(111,111,111);
+}
+.footer .buttom p a{
+	width: 121px;
+	height: 24px;
+	text-align: center;
+	display: inline-block;
+	color: rgb(111,111,111);
+	font-size: 16px;
+	font-weight: 400;
+}
+.footer .buttom .adress{
+	font-size: 13px;
+	color: rgb(111,111,111);
+}
+
+/* 地图样式 */
+.title{
+	color: #cc5522;
+	font-size: 14px;
+	font-family: 宋体;
+	font-weight: 800;
+	line-height:30px;
+	padding-top:0;
+}
+.BMap_bubble_content .contents{
+	line-height:20px;
+	font-size: 12px;
+	font-family: 宋体;
+	color: #000000;
+}

@@ -1,0 +1,302 @@
+/* CSS Document */
+div,html,body,ul,li,h5,p{
+	padding:0;
+	margin:0;
+}
+html{
+	width:1440px;
+}
+/*顶部导航*/
+.top{
+	width:1440px;
+	height:51px;
+	margin-bottom: 1px;
+	background:url(../images/topbg01.jpg) no-repeat;
+	/*overflow:hidden;*/
+}
+.top .top_1{
+	width: 1153px;
+	margin: 0 auto;
+	padding-top:6px;
+}
+.top .top_cen{
+	width: 257px;
+	height:42px;
+	float: left;
+	margin:0 auto;
+}
+/*logo部分*/
+.top img{
+	width:186px;
+	height:38px;
+	margin-left: 40px;
+}
+/*导航按钮*/
+.top ul{
+	width:1300px;
+	height:43px;
+	margin-top:5px;
+	/*float:right;*/	
+}
+.top ul li{
+	float:left;
+	list-style:none;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 1px;
+	border:1px solid #b2b2b2;
+	border-bottom: 0;
+	background: url(../images/menubg02.jpg);
+	font-style:oblique;
+}
+.top .top_1 #ulist .lis{
+	border:1px solid #ca7708;
+	border-bottom: 0;
+	/*padding-bottom: 1px;*/
+    background:url(../images/menubg01.jpg);
+    
+}
+.top .top_1 #ulist .lis a{
+	height:40px;
+	background-image:-webkit-linear-gradient(left,#ffffff,#ffffff,#ffffff); 
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent;
+}
+.top ul li a{	
+	font-weight: 600;
+	font-size:19px;
+	width: 100%;
+	display: inline-block;
+	height: 40px;
+	text-decoration:none;
+	background-image:-webkit-linear-gradient(left,#040000,#341101,#732702); 
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent;
+}
+/*最新通知部分*/
+.center{
+	width:1440px;
+	height:90px;
+	/*background: red;*/
+}
+.center_cen{
+	width: 1153px;
+	height: 25px;
+	margin: 0 auto;
+	
+}
+.center_cen .left{
+	width: 257px;
+	height: 27px;
+	background: #b85a24;
+	float: left;
+	font-size:13px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 27px;
+}
+.center_cen .right{
+	width: 865px;
+	height: 27px;
+	line-height: 27px;
+	background: #ac6f12;
+	float: right;
+	font-size:13px;
+	color: #f8d14b;
+	padding-left: 31px;
+}
+/*搜索部分*/
+.center_bot{
+	width: 1153px;
+	height: 53px;
+	margin: 0 auto;
+	background: #f2df02;
+}
+.center_bot .left{
+	background: url("../images/bell.png") no-repeat;
+	margin-left:115px;
+	/*float: left;*/
+}
+.center_bot .img{
+	position: absolute;
+	top:95px;
+	left:410px;
+}
+.center_bot input{
+	width: 645px;
+	height: 31px;
+	margin-left:140px;
+	margin-top:10px;
+	padding-left:100px;
+	/*float: right;*/
+}
+.center_bot .sou{
+	margin-top:10px;
+	width: 76px;
+	height: 34px;
+	float: right;
+	margin-right:60px;
+}
+/*新闻内容*/
+.buttom{
+	width: 1440px;
+}
+/*新闻左边列表*/
+.buttom .cen{
+	width: 1153px;
+	margin: 0 auto;
+}
+.buttom .cen .left{
+	width: 260px;
+	height: 210px;
+	float: left;
+}
+.buttom .cen .left div{
+	border-top:1px solid #d0cece;
+}
+.market{
+	width: 258px;
+	height: 50px;
+	background: white;
+	border-right:2px solid #62adf1;
+}
+.market span{
+	display: inline-block;
+	width: 162px;
+	height: 50px;
+	font-size: 10px;
+	background:#62adf1;
+}
+.market span img{
+	margin-top:7px;
+	margin-left:25px;
+}
+.yellow{
+	width: 258PX;
+	height: 27PX;
+	background: white;
+	border-right:2px solid #f2df02;
+}
+.yellow span{
+	font-size: 10px;
+	display: inline-block;
+	width: 162px;
+	height: 27px;
+	line-height: 27PX;
+	background:#f2df02;
+	color: white;
+	text-align: center;
+}
+.three{
+	width: 223px;
+	height:35px;
+	color: rgb(81,63,45);
+	border-left:5px solid #c8a581;
+	border-right:1px solid #c8a581;
+	padding-left:30px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 32px;
+	background: rgb(241,227,192);
+}
+.three_4{
+	border-bottom: 1px solid #c8a581;
+	width: 223px;
+	height:35px;
+	color: rgb(81,63,45);
+	border-left:5px solid #c8a581;
+	border-right:1px solid #c8a581;
+	padding-left:30px;
+	font-size: 16px;
+	font-weight: 600;
+	background: rgb(241,227,192);
+	line-height: 32px;
+}
+.three span{
+	font-size: 10px;
+	margin-right:10px;	
+}
+.three_4 span{
+	font-size: 10px;
+	margin-right:10px;	
+}
+/*新闻右边列表*/
+.buttom .right{
+	width: 882px;
+	float: right;
+}
+.buttom .cen .right ul h5{
+	height:35px;
+	width: 877px;
+	border-left: 5px solid #62adf1 ;
+	border-bottom: 1px solid gainsboro;
+	border-top: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+}
+.buttom .cen .right ul h5 img{
+	margin-left:15px;
+	margin-top:5px;
+}
+.buttom .cen .right ul li{
+	height:35px;
+	width: 863px;
+	list-style: none;
+	border-bottom: 1px dashed gainsboro;
+	padding-left:5px;
+	font-size: 13px;
+	line-height: 35px;
+	padding-left:20px;
+}
+.buttom .cen .right ul li span{
+	float: right;
+	margin-right:10px;
+}
+.buttom .cen .right p{
+	text-align: center;
+	font-size: 12px;
+	margin-top:42px;
+}
+/*尾部*/
+footer{
+	width: 1440px;
+	height: 214px;
+	margin-top:1162px;
+	background: rgb(235,235,235);	
+}
+.footer{
+	width: 774px;
+	height: 166px;
+	margin: 10px auto;
+	/*background: red;*/
+	margin-top: 37px;
+}
+.footer .buttom{
+	width: 774px;
+}
+.footer img{
+	margin-top:27px;
+	margin-bottom: 25px;
+}
+.footer .buttom p{
+	text-align: center;
+	font-size: 13px;
+	color: rgb(111,111,111);
+}
+.footer .buttom p a{
+	width: 121px;
+	height: 24px;
+	text-align: center;
+	display: inline-block;
+	color: rgb(111,111,111);
+	font-size: 16px;
+	font-weight: 400;
+}
+.footer .buttom p .bj{
+	border-left:1px solid ;
+	border-right:1px solid ;
+}
+.footer .buttom .adress{
+	font-size: 13px;
+	color: rgb(111,111,111);
+}

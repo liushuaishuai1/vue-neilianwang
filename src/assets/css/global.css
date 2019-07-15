@@ -1,0 +1,13 @@
+.el-header {
+    margin: 0;
+    padding: 0;
+     height: 52px !important;
+  }
+  .el-main{
+    padding: 0!important;
+  }
+  #page {
+    width: 1155px;
+    margin: 0 auto;
+    overflow: hidden;
+  }

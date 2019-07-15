@@ -1,0 +1,280 @@
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+	width: 1400px;
+}
+a:hover{
+	text-decoration: none;
+	color: #000000;
+}
+/*顶部导航*/
+.top{
+	width: 1400px;
+	height:51px;
+	margin-bottom: 1px;
+	/* background:url(../images/topbg01.jpg); */
+	background-size: contain;
+	/*overflow:hidden;*/
+}
+.top #market{
+	border:1px solid #ca7708;
+	border-bottom: 0;
+	/*padding-bottom: 1px;*/
+    background:url(../images/menubg01.jpg);
+}
+.top #market a{
+    height:40px;
+	background-image:-webkit-linear-gradient(left,#ffffff,#ffffff,#ffffff); 
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent;
+}
+.top .top_1{
+	width: 1152px;
+	margin: 0 auto;
+	padding-top:6px;
+}
+.top .top_cen{
+	width: 257px;
+	height:42px;
+	float: left;
+	margin:0 auto;
+}
+/*新闻内容*/
+.buttom{
+	width: 1400px;
+}
+#last{
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	border:1px solid black;
+	background:gainsboro;
+	outline: none;
+	border-radius: 50%;
+	font-size: 10px;
+	position: fixed;
+	top:690px;
+	left:1300px;
+}
+/*新闻左边列表*/
+.buttom .cen{
+	width: 1152px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.buttom .cen .left{
+	font-family: "SimSun";
+	width: 260px;
+	display: inline-block;
+}
+.buttom .cen .right ul li a{
+	color:#000000;
+	font-size: 12px;
+	text-decoration: none;
+}
+.market{
+	width: 254px;
+	height: 50px;
+	background: white;
+	border-right:2px solid #62adf1;
+}
+.market{
+	border:1px solid #d0cece;
+	border-bottom: 0;
+	width: 253px;
+	height: 50px;
+	background: white;
+	border-right:2px solid #62adf1;
+}
+.market span{
+	display: inline-block;
+	width: 162px;
+	height: 50px;
+	font-size: 10px;
+	background:#62adf1;
+}
+.market span img{
+	margin-top: 10px;
+    margin-left: 27px;
+}
+.yellow{
+	font-family: Arial;
+	border:1px solid #d0cece;
+	font-weight:600;
+	font-size: 14px;
+	width: 253PX;
+	height: 27PX;
+	background: white;
+    border-right:2px solid #f2df02;
+    color:#62adf1;
+}
+.yellow span{
+	font-size: 14px;
+    display: inline-block;
+    width: 162px;
+    height: 27px;
+    line-height: 27px;
+    background: #f2df02;
+    color: white;
+    text-align: center;
+    margin-right: -3px;
+}
+.three{
+	width: 217px;
+	height:35px;
+	color: rgb(81,63,45);
+	border-left:8px solid #c8a581;
+	border-right:1px solid #d5d5d4;
+	border-bottom:1px solid #d5d5d4; 
+	border-top:1px solid #ffffff;
+	padding-left:30px;
+	font-size: 16px;
+	font-weight: 600;
+	background: rgb(241,227,192);
+}
+.three a{
+	display: -mox- block;
+    text-decoration: none;
+    color: rgb(81,63,45);
+}
+.three a:hover{
+    text-decoration: none;
+    color: rgb(81,63,45);
+}
+.three .s1{
+	display: inline-block;
+	line-height: 35px;
+	font-size: 10px;
+	margin-right:10px;	
+}
+.buttom .cen .left #three_2{
+    width: 217px;
+	height:35px;
+	color: rgb(81,63,45);
+	border-left:8px solid #c8a581;
+	border-right:1px solid #d5d5d4;
+	border-bottom:1px solid #d5d5d4; 
+	border-top:1px solid #ffffff;
+	padding-left:30px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 32px;
+	background: url(../images/bj2_03.jpg);
+}
+.buttom .cen .left #three_2 a{
+	width: 217px;
+	height: 35px;
+	display: block;
+}
+.three .s2{
+	display: inline-block;
+	line-height: 35px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-right:10px;	
+}
+.buttom .cen .left .divs{
+	width: 217px;
+	height:35px;
+	color: rgb(81,63,45);
+	border-left:8px solid #c8a581;
+	border-right:1px solid #d5d5d4;
+	border-bottom:1px solid #d5d5d4; 
+	border-top:1px solid #ffffff;
+	padding-left:30px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 32px;
+	background: url(../images/bj2_03.jpg);
+}
+.buttom .cen .left .divs a {  
+    cursor: pointer;
+    text-decoration: none;
+	color: rgb(81,63,45);
+	display: -mox- block;
+}
+.buttom .cen .left .divs .s1{
+	font-size: 10px;
+	margin-right:10px;
+}
+.buttom .cen .left .divs .s2{
+	font-size: 16px;
+}
+/*新闻右边列表*/
+.buttom .right{
+	width: 882px;
+	float: right;
+}
+.buttom .cen .right h5{
+	height:35px;
+	width: 877px;
+	border-left: 5px solid #62adf1 ;
+	border-bottom: 1px solid gainsboro;
+	border-top: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+	background: url(../images/mlbj_03.png)no-repeat;
+    background-size: 100% 100%;
+}
+.buttom .cen .right h5 img{
+	margin-left:15px;
+	margin-top:7px;
+}
+
+/* 最外面的容器 */
+.detail{
+    padding-left:20px;
+}
+/* 头部 */
+.header{
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+}
+.header a{
+    color: black;
+}
+/* 标题 */
+.biaoti{
+    height: 35px;
+    line-height: 35px;
+    padding-bottom:45px;
+    font-size: 20px;
+    font-weight: 600;
+    margin:0 auto;
+    background: url(http://www.newsimg.cn/xl2017/images/bg2.jpg) 0 100% no-repeat;
+}
+.right .detail .biaoti p{
+	text-align: center;
+	color: #000000;
+}
+.detail .biaoti div{
+	font-weight: normal;
+	font-size: 14px;
+	color: gray;
+	text-align: center;
+}
+.right .detail .biaoti div span:last-child{
+	cursor: pointer;
+}
+/* 内容 */
+.neirong{
+    padding-top:15px;
+}
+.neirong p{
+	text-indent: 40px;
+    line-height: 35px;
+    margin-top: 15px;
+}
+.pics{
+	margin-top: 10px;
+	width: 256px;
+}
+.pics img{
+	width: 100%;
+	margin-bottom:10px;
+}

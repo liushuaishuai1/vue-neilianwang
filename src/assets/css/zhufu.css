@@ -1,0 +1,481 @@
+/* CSS Document */
+div,html,body,ul,li,h5,p,marquee{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+li{
+    list-style:none;
+    float: left;
+}
+html,body{
+	width: 1400px;
+}
+a:hover{
+	text-decoration: none;
+	color: #000000;
+}
+/*顶部导航*/
+.top{
+	width: 1400px;
+	height:51px;
+	margin-bottom: 1px;
+	background-size: contain;
+	/*overflow:hidden;*/
+}
+.top #good{
+	border:1px solid #ca7708;
+	border-bottom: 0;
+	/*padding-bottom: 1px;*/
+    background:url(../images/menubg01.jpg);
+}
+.top #good a{
+    height:40px;
+	background-image:-webkit-linear-gradient(left,#ffffff,#ffffff,#ffffff);
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent;
+}
+.top .top_1{
+	width: 1153px;
+	margin: 0 auto;
+	padding-top:6px;
+}
+.top .top_cen{
+	width: 257px;
+	height:42px;
+	float: left;
+	margin:0 auto;
+}
+/*新闻内容*/
+.buttom{
+	width: 1400px;
+}
+/*新闻左边列表*/
+.buttom .cen{
+	width: 1153px;
+	margin: 0 auto;
+}
+#last{
+	/* display: none; */
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	/* line-height: 35px; */
+	border:1px solid black;
+	background:gainsboro;
+	outline: none;
+	border-radius: 50%;
+	font-size: 10px;
+	position: fixed;
+	top:690px;
+	left:1300px;
+}
+.buttom .cen .left{
+    font-family: "SimSun";
+	width: 260px;
+	height: 210px;
+	float: left;
+}
+.buttom .cen .right ul li a{
+	color:#000000;
+	font-size: 12px;
+	text-decoration: none;
+	/* border-top:1px solid #d0cece; */
+}
+.market{
+	width: 254px;
+	height: 50px;
+	background: white;
+	border-right:2px solid #62adf1;
+}
+.market{
+	border:1px solid #d0cece;
+	border-bottom: 0;
+	width: 253px;
+	height: 50px;
+	background: white;
+	border-right:2px solid #62adf1;
+}
+.market span{
+	display: inline-block;
+	width: 162px;
+	height: 50px;
+	font-size: 15px;
+	background:#62adf1;
+}
+.market span img{
+	margin-top:10px;
+	margin-left:35px;
+}
+.yellow{
+	font-family: Arial;
+	border:1px solid #d0cece;
+	font-weight:600;
+	font-size: 14px;
+	width: 253PX;
+	height: 27PX;
+	background: white;
+    border-right:2px solid #f2df02;
+    color:#62adf1;
+}
+.yellow span{
+	font-size: 14px;
+    display: inline-block;
+    width: 162px;
+    height: 27px;
+    line-height: 27px;
+    background: #f2df02;
+    color: white;
+    text-align: right;
+    margin-right: -3px;
+}
+.three{
+	width: 217px;
+	height:35px;
+	color: rgb(81,63,45);
+	border-left:8px solid #c8a581;
+	border-right:1px solid #d5d5d4;
+	border-bottom:1px solid #d5d5d4; 
+	border-top:1px solid #ffffff;
+	padding-left:30px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 32px;
+	background: rgb(241,227,192);
+}
+.three a{
+	display:block;
+    text-decoration: none;
+    color: rgb(81,63,45);
+}
+.three a:hover{
+    text-decoration: none;
+	color: rgb(81,63,45);
+	display: block;
+}
+.three .s1{
+	display: inline-block;
+	line-height: 35px;
+	font-size: 12px;
+	margin-right:10px;	
+}
+.two{
+	width: 215px;
+    height: 35px;
+    margin-left: 7px;
+	color: #7f4d1e;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 32px;
+	padding-left: 32px;
+	background: #f8f1df;
+	border-left:1px solid #e3d2c0;
+	border-right:1px solid #e3d2c0;
+	border-bottom: 1px solid #d8d5ca;
+	border-top:1px solid #ffffff;
+}
+.two .s1{
+	display: inline-block;
+	line-height: 35px;
+	font-size: 10px;
+	margin-right:15px;	
+}
+.two a{
+    text-decoration: none;
+	color: #7f4d1e;
+	display: block;
+}
+.buttom .cen .left #three_5{
+    width: 217px;
+	height:35px;
+	color: rgb(81,63,45);
+	border-left:8px solid #c8a581;
+	border-right:1px solid #d5d5d4;
+	border-bottom:1px solid #d5d5d4; 
+	border-top:1px solid #ffffff;
+	padding-left:30px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 32px;
+	background: url(../images/bj2_03.jpg);
+}
+.buttom .cen .left #three_8{
+	width: 217px;
+	height:35px;
+	border-left:1px solid #c8a581;
+	border-right:1px solid #d5d5d4;
+	border-bottom:1px solid #d5d5d4; 
+	border-top:1px solid #ffffff;
+	padding-left:30px;
+	color: #7f4d1e;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 32px;
+	margin-left:7px;
+	background: url(../images/bj2_03.jpg);
+}
+.buttom .cen .left #three_8 a{
+	width: 217px;
+	height: 35px;
+	display: -mox- block;
+}
+.three .s2{
+	display: inline-block;
+	line-height: 35px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-right:10px;	
+}
+.one{
+	width: 257px;
+	margin-top:11px;
+}
+/* 列表上半部分点击之后的样式 */
+.buttom .cen .left .divs{
+	width: 217px;
+	height:35px;
+	color: rgb(81,63,45);
+	border-left:8px solid #c8a581;
+	border-right:1px solid #d5d5d4;
+	border-bottom:1px solid #d5d5d4; 
+	border-top:1px solid #ffffff;
+	padding-left:30px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 32px;
+	background: url(../images/bj2_03.jpg);
+}
+.buttom .cen .left .divs a {  
+    cursor: pointer;
+    text-decoration: none;
+	color: rgb(81,63,45);
+	display: -mox- block;
+}
+.buttom .cen .left .divs a .s1{
+	font-size: 10px;
+	margin-right:10px;
+}
+.buttom .cen .left .divs a .s2{
+	font-size: 16px;
+}
+/* 列表下半部分点击之后的样式 */
+.buttom .cen .left .div{
+	width: 217px;
+	height:35px;
+	border-left:1px solid #c8a581;
+	border-right:1px solid #d5d5d4;
+	border-bottom:1px solid #d5d5d4; 
+	border-top:1px solid #ffffff;
+	padding-left:30px;
+	color: #7f4d1e;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 32px;
+	margin-left:7px;
+	background: url(../images/bj2_03.jpg);
+}
+.buttom .cen .left .div a {  
+    cursor: pointer;
+    text-decoration: none;
+	color: rgb(81,63,45);
+	display: -mox- block;
+}
+.buttom .cen .left .div a .s1{
+	font-size: 10px;
+	margin-right:17px;
+}
+.buttom .cen .left .div a .s2{
+	font-size: 14px;
+	/* margin-right:10px; */
+}
+.buttom .cen .right ul li a:hover{
+	color:gray;
+}
+/*新闻右边列表*/
+.buttom .right{
+	width: 882px;
+	float: right;	
+}
+.buttom .right .one{
+	width:882px;
+	margin-bottom: 15px;
+	display: block;
+}
+.buttom .cen .right h5{
+	height:35px;
+	width: 877px;
+	border-left: 5px solid #62adf1 ;
+	border-bottom: 1px solid gainsboro;
+	border-top: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+}
+.buttom .cen .right h5 span{
+    float: right;
+    margin-right:15px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.buttom .cen .right h5 img{
+	margin-left:15px;
+	margin-top:7px;
+}
+.ubox .sbox{
+    width: 881px;
+    height: 90px;
+    border: 1px solid #d0cece;
+    margin-top:12px;
+}
+.ubox .sbox .lbox{
+    width: 217px;
+    height: 90px;
+    float: left;
+    border-right:1px solid #d0cece;
+    background: url(../images/zhufu_17.jpg)no-repeat;
+    background-size: 42% 100%;
+}
+.ubox .sbox .lbox .left{
+    width: 65px;
+    height: 65px;
+    border:1px solid white;
+    border-radius: 50%;
+    margin:15px;
+    background: #cbc6cc;
+    float: left;
+    overflow: hidden;
+}
+.ubox .sbox .lbox .left img{
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+}
+.ubox .sbox .lbox .right{
+    width: 108px;
+    height: 90px;
+    float: right;
+    padding-left:12px;
+}
+.ubox .sbox .lbox .right p{
+    font-size: 17px;
+    color: #000000;
+    font-weight: 540;
+    line-height: 25px;
+    margin-top:15px;
+}
+.ubox .sbox .lbox .right span{
+    color: #000000;
+    font-size: 14px;
+    line-height: 22px;
+}
+.ubox .sbox .lbox .right a{
+    color: #808080;
+    font-size: 10px;
+    line-height: 24px;
+}
+.ubox .sbox .rbox{
+    width: 567px;
+	height: 65px;
+	font-size: 14px;
+    float: left;
+    background: url(../images/zhufu_11.jpg)no-repeat;
+    background-size: 100%;
+    padding-left:96px;
+    padding-top:25px;
+}
+.ubox .btn{
+	color: #666666;
+	font-size: 14px;
+	text-align: center;
+}
+.ubox .btn a{
+	padding-left: 5px;
+    padding-right: 5px;
+}
+.ubox span{
+	margin-right:6px;
+}
+.ubox .ss3{
+	margin-left:40px;
+}
+.ubox .ss2{
+	margin-right:42px;
+}
+.buttom .cen .right .content{
+	height:35px;
+	width: 863px;
+	list-style: none;
+	font-size: 13px;
+	line-height: 35px;
+    margin-right:10px;
+}
+.right .lastdiv{
+    width: 881px;
+    height: 141px;
+    background: #f2f2f2;
+    margin-top:680px;
+    overflow: hidden;
+}
+.right .lastdiv .input{
+    width: 826px;
+    height: 55px;
+    margin: 26px auto;
+}
+.right .lastdiv .input input{
+    height: 51px;
+    width: 765px;
+}
+.right .lastdiv .input button{
+    background: #eb6200;
+    font-size: 14px;
+    color: #fff;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    width: 51px;
+    height: 100%;
+    float: right;
+}
+.right .lastdiv .xuan{
+    height: 57px;
+    padding-left:105px;
+    margin-top:-10px;
+}
+/*尾部*/
+footer{
+	width: 1423px;
+	height: 214px;
+	margin-top:1110px;
+	background: rgb(235,235,235);	
+}
+.footer{
+	width: 774px;
+	height: 166px;
+	margin: 10px auto;
+	margin-top: 37px;
+}
+.footer .buttom{
+	width: 774px;
+}
+.footer img{
+	margin-top:27px;
+	margin-bottom: 25px;
+}
+.footer .buttom p{
+	text-align: center;
+	font-size: 13px;
+	color: rgb(111,111,111);
+}
+.footer .buttom p a{
+	width: 121px;
+	height: 24px;
+	text-align: center;
+	display: inline-block;
+	color: rgb(111,111,111);
+	font-size: 16px;
+	font-weight: 400;
+}
+.footer .buttom .adress{
+	font-size: 13px;
+	color: rgb(111,111,111);
+}
